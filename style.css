@@ -1,0 +1,10 @@
+form * {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#text-pomodoro {
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+}
