@@ -5,13 +5,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Pomodoro</title>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pomowork</title>
 </head>
 
 <body>
-  <h1>Timer</h1>
+  <header>
+    <h1>Pomowork</h1>
+  </header>
+  <nav>
+    <a href="#">Relatório</a>
+    <a href="#">Configurações</a>
+  </nav>
   <form for="pomodoro" id="pomodoro-settings">
+    <h1>Configurações</h1>
     <label for="pomodoroTime">pomodoro</label>
     <input type="number" name="pomodoroTime" id="pomodoroTime">
     <label for="shortBreak">Short Break</label>
@@ -21,20 +28,24 @@
     <button id="save-button">Ok</button>
   </form>
   <section id="text-time">
-    <span id="timeMinutes">MM</span>:<span id="timeSeconds">SS</span>
+    <div>
+      <span id="timeMinutes">MM</span>:<span id="timeSeconds">SS</span>
+    </div>
+    <button id="startTimer">Iniciar</button>
+    <button id="pauseTimer">Pause</button>
   </section>
-  <button id="startTimer">Iniciar</button>
-  <button id="pauseTimer">Pause</button>
-  <section id="active-time">
-    <h2>Active Hours</h2>
-    <span id="activeHours">MM</span>:<span id="activeMinutes">SS</span>
+  <section id="report">
+    <section id="active-time">
+      <h2>Active Hours</h2>
+      <div>
+        <span id="activeHours">MM</span>:<span id="activeMinutes">SS</span>
+      </div>
+    </section>
+    <section id="passive-time">
+      <h2>Passive Hours</h2>
+      <span id="passiveHours">MM</span>:<span id="passiveMinutes">SS</span>
+    </section>
   </section>
-  <section id="passive-time">
-    <h2>Passive Hours</h2>
-    <span id="passiveHours">MM</span>:<span id="passiveMinutes">SS</span>
-  </section>
-
-
   <script type="module" src="js/index.js"></script>
 </body>
 
