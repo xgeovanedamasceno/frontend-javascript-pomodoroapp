@@ -3,6 +3,7 @@ import startTimer from "./start-timer.js";
 
 export default function startPomodoro() {
 
+  const phase = 'pomodoro';
   const startButton = document.querySelector("#startTimer");
   const timeMinutes = document.querySelector("#timeMinutes");
   
@@ -22,6 +23,6 @@ export default function startPomodoro() {
 
   pomodoroSettings.setPauseStatus(false);
   localStorage.setItem('pauseStatus', pomodoroSettings.pauseStatus);
-  startTimer(time);
+  startTimer(time, phase);
   
 }
