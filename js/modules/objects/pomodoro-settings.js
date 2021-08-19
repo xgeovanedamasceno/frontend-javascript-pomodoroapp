@@ -5,6 +5,8 @@ export const pomodoroSettings = {
   cycle: 0,
   phase: false,
   pauseStatus: false,
+  activeProductivity: 0,
+  passiveProductivity: 0,
     
   pomodoroTime(value) {
     this.pomodoro = value;
@@ -21,5 +23,12 @@ export const pomodoroSettings = {
   setPauseStatus(value) {
     this.pauseStatus = value;
   },
+
+  sumActiveProductivity(value) {
+    this.activeProductivity += value;
+  },
   
+  sumPassiveProductivity(value) {
+    this.passiveProductivity += value;
+  }
 }
