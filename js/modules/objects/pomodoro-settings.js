@@ -1,5 +1,5 @@
 export const pomodoroSettings = {
-  pomodoro: 5,
+  pomodoro: 25,
   shortBreak: 3,
   longBreak: 4,
   cycle: 0,

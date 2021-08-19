@@ -14,15 +14,27 @@
     <h1>Pomowork</h1>
   </header>
   <nav>
-    <a href="#">Report</a>
-    <a href="#">Settings</a>
+    <a href="#">Relatório</a>
+    <a href="#">Configurações</a>
   </nav>
   <section id="text-time">
     <div>
       <span id="timeMinutes">MM</span>:<span id="timeSeconds">SS</span>
     </div>
-    <button id="startTimer">Start</button>
+    <button id="startTimer">Iniciar</button>
     <button id="pauseTimer">Pause</button>
+  </section>
+  <section id="report">
+    <section id="active-time">
+      <h2>Active Hours</h2>
+      <div>
+        <span id="activeHours">MM</span>:<span id="activeMinutes">SS</span>
+      </div>
+    </section>
+    <section id="passive-time">
+      <h2>Passive Hours</h2>
+      <span id="passiveHours">MM</span>:<span id="passiveMinutes">SS</span>
+    </section>
   </section>
   <script type="module" src="js/index.js"></script>
 </body>
