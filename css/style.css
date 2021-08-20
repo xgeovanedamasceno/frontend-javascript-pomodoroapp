@@ -12,6 +12,11 @@ a {
 
 /* style */
 
+html {
+  font-family: "Nunito", sans-serif;
+  color: #4a4a55;
+}
+
 body {
   background-color: #f6f6f6;
 }
@@ -71,21 +76,26 @@ nav a {
 }
 
 form {
-  width: 500px;
+  width: 450px;
   margin: 0 auto;
 }
 
 input {
-  width: 80px;
+  width: 50px;
   margin: 5px 0;
-  padding: 5px;
+  padding: 2px;
   display: inline;
+  border: 1px solid #4a4a5556;
 }
 
 form button {
+  position: relative;
+  left: 360px;
+  margin-top: 5px;
   background-color: #4a4a55;
-  width: 100px;
-  height: 30px;
+  width: 70px;
+  height: 22px;
+  margin-left: 5px;
   color: white;
   text-transform: uppercase;
 }
@@ -123,5 +133,7 @@ form button {
 
 #report {
   width: 500px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
