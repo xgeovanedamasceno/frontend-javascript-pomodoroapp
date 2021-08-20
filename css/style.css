@@ -58,6 +58,36 @@ nav a {
   align-items: center;
 }
 
+.main-content {
+  width: 450px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #efefef;
+  font-size: 2rem;
+  color: #ff3e00;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 80px;
+  margin: 5px 0;
+  padding: 5px;
+  display: inline;
+}
+
+form button {
+  background-color: #4a4a55;
+  width: 100px;
+  height: 30px;
+  color: white;
+  text-transform: uppercase;
+}
 #text-time div {
   width: 450px;
   height: 200px;
