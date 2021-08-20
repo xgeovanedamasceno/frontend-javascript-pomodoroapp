@@ -11,18 +11,39 @@
 
 <body>
   <header>
-    <h1> <a href="index.html"> Pomowork</a></h1>
+    <h1><a href="index.html"> Pomowork</a></h1>
   </header>
   <nav>
     <a href="report.html">Report</a>
     <a href="settings.html">Settings</a>
   </nav>
+  <form for="pomodoro" id="pomodoro-settings">
+    <label for="pomodoroTime">pomodoro</label>
+    <input type="number" name="pomodoroTime" id="pomodoroTime">
+    <label for="shortBreak">Short Break</label>
+    <input type="number" name="shortBreakTime" id="shortBreak">
+    <label for="longBreak">Long Break</label>
+    <input type="number" name="longBreakTime" id="longBreak">
+    <button id="save-button">Ok</button>
+  </form>
   <section id="text-time">
     <div>
       <span id="timeMinutes">MM</span>:<span id="timeSeconds">SS</span>
     </div>
     <button id="startTimer">Start</button>
     <button id="pauseTimer">Pause</button>
+  </section>
+  <section id="report">
+    <section id="active-time">
+      <h2>Active Hours</h2>
+      <div>
+        <span id="activeHours">MM</span>:<span id="activeMinutes">SS</span>
+      </div>
+    </section>
+    <section id="passive-time">
+      <h2>Passive Hours</h2>
+      <span id="passiveHours">MM</span>:<span id="passiveMinutes">SS</span>
+    </section>
   </section>
   <script type="module" src="js/index.js"></script>
 </body>
