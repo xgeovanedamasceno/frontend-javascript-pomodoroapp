@@ -39,7 +39,7 @@ Criei um Pomodoro App para mergulhar no JavaScript e praticar lógica de program
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
 <!-- CONTACT -->
 
