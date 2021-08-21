@@ -23,8 +23,8 @@ export default function startTimer(timeMin, phase) {
       timeMinutes.innerHTML = timeMin--;
       countTime++
       if(timeMin < 0) {
-        countProductivity(countTime, phase);
         stopTimer();
+        countProductivity(countTime, phase);
       }
     }
   }, 1000);
