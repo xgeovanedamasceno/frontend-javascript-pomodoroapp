@@ -48,11 +48,3 @@ Distributed under the MIT License.
 Geovane Damasceno - geovanedamasceno@outlook.com
 
 Project Link: [https://github.com/xgeovanedamasceno/learning-js-pomodoro](https://github.com/xgeovanedamasceno/learning-js-pomodoro)
-
-## notes para o commit
-
-- add class='modal' at form element
-- add id atribute to each ancor element at navbar
-
-- define display none to this class at css file
-- create modal input settings js file
