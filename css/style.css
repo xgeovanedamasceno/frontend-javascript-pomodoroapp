@@ -19,15 +19,16 @@ html {
 
 body {
   background-color: #f6f6f6;
+  margin: 0 auto;
 }
 
-header {
+.main-header {
   background-color: #f6f6f6;
   padding-top: 20px;
   /* border: 1px solid greenyellow; */
 }
 
-header h1 {
+.main-header h1 {
   width: max-content;
   margin: 0px auto;
   color: #4a4a55;
@@ -129,6 +130,28 @@ form button {
 
 #pauseTimer {
   display: none;
+}
+
+#tasks {
+  margin: 30px auto;
+  width: 500px;
+  /* border: 1px solid navy; */
+}
+
+#tasks input {
+  width: 100px;
+}
+
+#tasks button {
+  border: 1px solid #4a4a55;
+  width: 80px;
+  background-color: #4a4a55;
+  color: white;
+  padding: 2px 4px;
+}
+
+#tasks button:hover {
+  cursor: pointer;
 }
 
 #report {
